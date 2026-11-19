@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color:rgb(255, 255, 255);
+            display: flex;
+             flex-direction: column;
+           
+        }
+        .box{
+            width:1024px;
+            height:200px;
+            background-color: white;
+            margin-left: 100px;
+            margin-top: 50px;
+            position: relative;
+        }
+        .box1{
+            position: absolute;
+            top: 30px;
+            left: 130px;
+        
+        }
+        .quti{
+            width: 900px;
+            height: 700px;
+            background-color: white;
+            margin-left: 200px;
+            margin-top: 70px;
+            display: flex;
+             flex-direction: column;
+           
+        }
+        a{
+            text-decoration: none;
+        }
+        .quti2{
+            width:800px;
+            height: 550px;
+            display: flex;
+            margin-top: 50px;
+           
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .color{
+            width: 150px;
+            height:200px;
+            
+        }
+        p{
+            color: gray;
+        }
+        @media(max-width: 768px){
+             .box, .quti, .color{
+               color: red;
+               background-color: rgb(204, 188, 188);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="/Bitmap (6).png" alt="">
+             <div class="box1">
+                <p style="font-size: 20px; color: gray;">scoot</p>
+                <h2 style="font-size: 40px; color: white;">Design System</h2>
+             </div>
+             <img src="/Group 8 Copy (1).png" alt="" style="margin-top: -100px;">
+        </div>
+        <div class="quti">
+            <a href="#" style="color:#FCB72B ; font-size: 40px;">01 <span style="font-size: 40px; color: #495567;">Colors</span></a>
+            <div class="quti2">
+                  <div class="color"> 
+                    <img src="/Group 8 (1).png" alt="">
+                    <h3>Yellow</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>
+                  <div class="color">
+                     <img src="/Group 8 (2).png" alt="">
+                    <h3>Dark Navy</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>
+                  <div class="color">
+                     <img src="/Group 8 (3).png" alt="">
+                    <h3>Dim Grey</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>
+                  <div class="color">
+                     <img src="/Group 8 (4).png" alt="">
+                    <h3>Light Grey</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>
+                  <br>
+                  <div class="color">
+                     <img src="/Group 8 (5).png" alt="">
+                    <h3>Snow</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>
+                  <br>
+                  <div class="color">
+                     <img src="/Group 8 (6).png" alt="">
+                    <h3>Light Yellow</h3>
+                    <p>HEX : #FCB72B <br>RGB : rgb(252, 183, 43) <br> HSL : hsl(40°, 97%, 58%)</p>
+                  </div>   
+            </div>
+        </div>
+    </div>
+</body>
+</html>
